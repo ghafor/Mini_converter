@@ -1,0 +1,74 @@
+.container{
+		width:400px;
+		height: 250px;
+		border:1px solid lightgray;
+		box-shadow: 1px 1px 2px lightgray;
+		margin:20px auto;
+		padding:17px;
+		padding-top: 50px;
+		display: flex;
+		background-color: rgba(220,250,240,0.5);
+	}
+	input[type=text]{
+		width: 98%;
+		height: 30px;
+		border:1px solid lightgray;
+		border-radius: 3px;
+		font-size: 20px;
+		font-family:'calibri light';
+		padding-left: 5px;
+
+	}
+	
+	.convert-button{
+		text-decoration: none;
+		color: black;
+		padding:7px 10px;
+		border:1px solid lightgray;
+		border-radius: 3px;
+		position: relative;
+		top:30px;
+		font-family: calibri;
+	}
+	.convert-button:hover,.right-button:hover{
+		background-color: #444;
+		color:white;
+	}
+	.result{
+		clear: both;
+		width:98%;
+		height: 35px;
+		border:1px solid lightgray;
+		border-radius: 3px;
+		position: relative;
+		top:50px;
+		font-family: calibri;
+		font-size: 20px;
+		padding-left: 5px;
+	}
+	.bellow{
+		width:75%;
+		margin-top: -58px;
+	}
+	.bellow h3{
+		margin-left: 125px;
+		font-family: calibri;
+		text-shadow:10px 10px 7px green;
+
+	}
+	.right{
+		width:24%;
+	}
+	.right-button{
+		text-decoration: none;
+		color: black;
+		padding:9px 18px;
+		border:1px solid lightgray;
+		border-radius: 3px;
+		font-family: calibri;
+		float: left;
+		margin-left: 20px;
+		width: 48px;
+		height: 20px;
+
+			}
